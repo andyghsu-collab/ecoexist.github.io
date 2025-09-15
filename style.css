@@ -8,9 +8,9 @@
   display: none !important;
 }
 
-.body {
+body {
   width: 100vw;
-  background-color:F0ECE0;
+  background-color:#F0ECE0;
 }
 
 .header {
