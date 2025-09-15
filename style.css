@@ -1,0 +1,80 @@
+
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box
+}
+[hidden] {
+  display: none !important;
+}
+
+.body {
+  width: 100vw;
+  background-color:F0ECE0;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+ font-family: 'Rock Salt', cursive;
+background: #C4CAA7;
+  padding: 5px;
+  width: 100%;
+   left:0;
+   right:0;
+   letter-spacing: 10px;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  column-gap: 1em;
+  grip-gap:10px;
+  font-family: 'Roboto Mono', monospace;
+}
+.age {
+  font-family:'Roboto Mono', monospace;
+  text-align: center;
+}
+.card {
+  background-color: #ddd6c2;
+  margin: 0 0 1em;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px saddlebrown;
+}
+
+.instructions {
+  font-family: helvetica;
+  font-style: italic;
+}
+
+.image2 {
+  display: block;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  object-fit: fill;
+  height: 350px;
+  width: 262.5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.ornamental {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+.tag {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
